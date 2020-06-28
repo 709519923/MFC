@@ -1,0 +1,55 @@
+﻿生成启动时间为 2020/6/27 1:41:03。
+     1>项目“E:\学习\VC++实验\VC_experiment\DC_ex\DC_ex\DC_ex.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\DC_ex.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\DC_ex.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\软件\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DC_ex.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\软件\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DC_ex.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DC_.cpp DC_ex.cpp DC_exDoc.cpp DC_exView.cpp MainFrm.cpp
+         MainFrm.cpp
+     1>e:\学习\vc++实验\vc_experiment\dc_ex\dc_ex\mainfrm.cpp(348): warning C4101: “e”: 未引用的局部变量
+         DC_exView.cpp
+         DC_exDoc.cpp
+     1>e:\学习\vc++实验\vc_experiment\dc_ex\dc_ex\dc_exdoc.cpp(220): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         DC_ex.cpp
+         DC_.cpp
+     1>e:\学习\vc++实验\vc_experiment\dc_ex\dc_ex\dc_.cpp(39): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>e:\学习\vc++实验\vc_experiment\dc_ex\dc_ex\dc_.cpp(127): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\DC_ex.res" DC_ex.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DC_ex.exe.embed.manifest.res" Debug\DC_ex_manifest.rc 
+       Link:
+         e:\软件\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\学习\VC++实验\VC_experiment\DC_ex\Debug\DC_ex.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\DC_ex.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\学习\VC++实验\VC_experiment\DC_ex\Debug\DC_ex.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\学习\VC++实验\VC_experiment\DC_ex\Debug\DC_ex.lib" /MACHINE:X86 Debug\DC_ex.res
+         Debug\DC_ex.exe.embed.manifest.res
+         Debug\DC_.obj
+         Debug\DC_ex.obj
+         Debug\DC_exDoc.obj
+         Debug\DC_exView.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\DC_ex.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DC_ex.exe.embed.manifest" /manifest Debug\DC_ex.exe.intermediate.manifest "e:\软件\VS2010\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DC_ex.exe.embed.manifest.res" Debug\DC_ex_manifest.rc 
+       LinkEmbedManifest:
+         e:\软件\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\学习\VC++实验\VC_experiment\DC_ex\Debug\DC_ex.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\DC_ex.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\学习\VC++实验\VC_experiment\DC_ex\Debug\DC_ex.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\学习\VC++实验\VC_experiment\DC_ex\Debug\DC_ex.lib" /MACHINE:X86 Debug\DC_ex.res
+         Debug\DC_ex.exe.embed.manifest.res
+         Debug\DC_.obj
+         Debug\DC_ex.obj
+         Debug\DC_exDoc.obj
+         Debug\DC_exView.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         DC_ex.vcxproj -> E:\学习\VC++实验\VC_experiment\DC_ex\Debug\DC_ex.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\DC_ex.unsuccessfulbuild”。
+         正在对“Debug\DC_ex.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\学习\VC++实验\VC_experiment\DC_ex\DC_ex\DC_ex.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.50
